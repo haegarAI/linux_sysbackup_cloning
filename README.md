@@ -11,7 +11,7 @@ Tools and steps
 # boot in the helper sys OS on /dev/sdc1
 # remove grub.cfg on restored sys eg /dev/sdc7
    mount /dev/sdc7 /mnt
-   rm /mn/boot/grub/grub.cfg
+   rm /mnt/boot/grub/grub.cfg
 # change "/" dev (most likely some UUID is there, which is from the orig sys) in fstab to /dev/sdc7
    vi /mnt/etc/fstab
    umount /mnt
